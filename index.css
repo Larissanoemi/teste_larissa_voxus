@@ -1,0 +1,201 @@
+
+#experimentar{
+position: absolute;
+width: 280px;
+height: 42px;
+left: calc(50% - 280px/2);
+display: inline-block;
+top: 70%;
+
+background: #14E298;
+border-radius: 3px;
+color: white;
+}
+
+#corpo{
+background: #f5f7fa;
+background-image: url('predio.png');
+background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+
+}
+
+#divisao{
+    margin: 0;
+    border-top: 2px solid #ebedf0;
+
+}
+
+#retangulo{
+	position: absolute;
+width: 1440px;
+height: 50px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+background: #FFFFFF;
+}
+
+#img_logo{
+	    margin-top: 2%;
+}
+.footer-bar{
+	padding-top: 20px;
+    margin: 0 auto;
+    height: 58px;
+    line-height: 25px;
+}
+.list{
+	    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.footer-bar .list ul li {
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid var(--linhas);
+   
+}
+
+.footer-bar .list ul li a {
+    color: #748296;
+}
+
+.form-box {
+    max-width: 620px;
+    margin: 70px auto 100px auto;
+    background: #FFF;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 40px 0 rgba(116, 130, 150, 0.2);
+    text-align: center;
+}
+
+.try .title {
+    max-width: 580px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+.title h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.title p{
+	color: #748296;
+}
+
+.form-box .input-div {
+    margin: 0 auto 30px auto;
+    max-width: 280px;
+    height: 43px;
+}
+.form-box .input-div.tel-field {
+    margin-bottom: 30px;
+    height: 43px;
+}
+.dropdown-select .input-text {
+    float: left;
+    height: 25px;
+    width: 95%;
+}
+.dropdown-select {
+    color: rgba(45, 58, 64, 0.3);
+    line-height: 14px;
+    margin-left: 8px;
+    text-align: left;
+}
+.dropdown-select .caret {
+    color: #333;
+    float: right;
+    margin-top: 6px;
+}
+.teste .form-box .input-div .dropdown-select {
+    border: 0;
+    width: 95%;
+    border: solid 1px rgba(116, 130, 150, 0.2);
+    padding: 15px 11px;
+    height: 43px;
+    border-radius: 3px;
+}
+
+
+.error_message {
+    background: #e03064;
+    display: inline-block;
+    color: #fff !important;
+    width: 70%;
+    text-align: left;
+    float: left !important;
+    font-size: 11px;
+    text-indent: 15px;
+    padding: 2px;
+    margin-top: 0px;
+    margin-left: 8px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.teste .form-box .input-div input, .teste .form-box .input-div .dropdown-select {
+    border: 0;
+    width: 95%;
+    border: solid 1px rgba(116, 130, 150, 0.2);
+    padding: 15px 11px;
+    height: 43px;
+    border-radius: 3px;
+}
+
+.teste .form-box .button.button-green {
+    height: 43px;
+    max-width: 250px;
+    margin: 0 auto;
+    background-color: #14e298;
+}
+
+button.button {
+    width: 100%;
+    height: 32px;
+    border: 0px;
+    border-radius: 3px;
+    background: var(--voxus);
+    color: #FFF;
+    font-weight: 500;
+    line-height: 32px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(45, 58, 64, 0.3);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(45, 58, 64, 0.3);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(45, 58, 64, 0.3);  
+}
+
+:-ms-input-placeholder {  
+   color: rgba(45, 58, 64, 0.3);  
+}
+
+/* .label-flutuante
+{
+    width: 100%;
+     position: absolute;
+   color: Goldenrod;
+  font-weight: bold;
+     top: 0; bottom: 0; left: 0; right: 0;
+   transition: 0.5s;                
+}
+.input-flutuante: focus + .label-flutuante
+{
+    margin-top: 0px;
+    top: -50%;
+    z-index: 2;
+    transition: 0.2s;  
+} */
